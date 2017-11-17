@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cidadania na Palma da Mão - GDF</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page" style="background-color: #ecf0f1">
+
+  
+    <ion-card>
+      <a (click)="irParaMobilidade()">
+        <img src="assets/imgs/mobilidade-urbana.jpg"/>
+        <div class="card-title">Mobilidade</div>
+      </a>
+    </ion-card>
+  
+    <ion-card>
+      <a (click)="irParaSaude()">
+        <img src="assets/imgs/saude.jpg"/>
+        <div class="card-title">Saúde</div>
+      </a>
+    </ion-card>
+  
+    <ion-card>
+      <a (click)="irParaEducacao()">  
+        <img src="assets/imgs/educacao.jpg"/>
+        <div class="card-title">Educação</div>
+      </a>
+    </ion-card>
+  
+    <ion-card>
+      <a (click)="irParaSeguranca()">
+        <img src="assets/imgs/seguranca.jpg"/>
+        <div class="card-title">Segurança</div>
+      </a>
+    </ion-card>
+
+    <ion-card>
+      <a (click)="irParaSaneamento()">
+        <img src="assets/imgs/saneamento.jpg"/>
+        <div class="card-title">Saneamento</div>
+      </a>
+    </ion-card>
+    
+  </ion-content>
+
+  <ion-footer class="pe">
+      <a (click)="irParaEmergencia()">
+        <button ion-button color="danger">
+          Emergência 1
+        </button>
+      </a>
+      <a (click)="irParaEmergencia()">
+        <button ion-button color="danger">
+          Emergência 2
+        </button>
+      </a>
+      
+  </ion-footer>
+
+
+  <!-- <a href="http://cidadania.ssp.df.gov.br/">Emergência</a> -->
+    
+  

@@ -1,0 +1,103 @@
+.card-background-page {
+    
+      ion-card {
+        position: relative;
+        text-align: center;
+      }
+    
+      .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: lighter;
+        color: #fff;
+        text-align: center;
+      }
+    
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+      }
+
+      #mobilidade{
+        background: url("../assets/imgs/mobilidade-urbana.jpg");
+        background-size: cover;
+      }
+      #saude{
+        background: url("../assets/imgs/saude.jpg");
+        background-size: cover;
+      }
+      #educacao{
+        background: url("../assets/imgs/educacao.jpg");
+        background-size: cover;
+      }
+      #seguranca{
+        background: url("../assets/imgs/seguranca.jpg");
+        background-size: cover;
+      }
+      #saneamento{
+        background: url("../assets/imgs/saneamento.jpg");
+        background-size: cover;
+      }
+      #ceb{
+        background: url("../assets/imgs/ceb.jpg");
+        background-size: cover;
+      }
+      #esporte{
+        background: url("../assets/imgs/ciclismo.jpg");
+        background-size: cover;
+      }
+      #codhab{
+        background: url("../assets/imgs/codhab.JPG");
+        background-size: cover;
+      }
+      #ouvidoria{
+        background: url("../assets/imgs/ouvidoria.jpg");
+        background-size: cover;
+      }
+      h1{
+        color: #fff;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30pt;
+      }
+    }
+.pe{
+    background-color: #b71c1c;
+    height: 50px;
+    text-align: center;
+    padding: 3px;
+
+    a:link{
+      text-decoration: none;
+      font-size: 30pt;
+      padding-top: 10px;
+    }
+    h1{
+      margin-top: 5px;
+      color: #fff;
+      font-size: 30px;
+      
+    }
+}
+ion-title{
+  text-align: initial;
+}
+
+ion-row{
+  height: 100px;
+}
+
+.toolbar-background{
+  background-color: #27ae60;
+}
+ion-title{
+  img{
+    margin-top: 5px;
+    display: block;
+  }
+}
